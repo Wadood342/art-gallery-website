@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Art Gallery Website</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap" rel="stylesheet">
+  
+  
+  <!-- CSS sheet -->
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Main Section -->
+  <main>
+    <section class="main-section"> 
+      <div class="black-bg"></div>
+      <div class="main-pic-container">
+        <picture>
+          <source media="(min-width: 747px)" srcset="
+                assets/desktop/image-hero@2x.jpg 2x,
+                assets/desktop/image-hero.jpg    1x
+              " />
+          <img src="assets/mobile/image-hero.jpg" alt="people look picture " />
+        </picture>
+      </div>
+      <div class="main-content">
+        <h1 class="main-title">
+          Modern <br />
+          Art Gallery
+        </h1>
+        <div>
+          <p class="main-text">
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit
+            us and find out.
+          </p>
+          <div class="main-button-container">
+            <a href="#" class="main-button">Our location</a>
+            <img class="main-button-arrow" src="assets/icon-arrow-right.svg" alt="arrow-right" />
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- art-Gallery Portion -->
+    <section class="gallery"> 
+      <div class="gallery-pic1-container">
+        <picture>
+          <source media="(min-width: 747px)" srcset="
+                assets/desktop/image-grid-1@2x.jpg 2x,
+                assets/desktop/image-grid-1.jpg    1x
+              " />
+          <img src="assets/mobile/image-grid-1.jpg" alt="gallery picture" />
+        </picture>
+      </div>
+      <div class="gallery-container-white">
+        <h2 class="gallery-title-black">Your day at the gallery</h2>
+        <p class="gallery-text-black">
+          Wander through our distinct collections and find new insights about
+          our artists. Dive into the details of their creative process.
+        </p>
+      </div>
+      <div class="gallery-pic2-container">
+        <picture>
+          <source media="(min-width: 747px)" srcset="
+                assets/desktop/image-grid-2@2x.jpg 2x,
+                assets/desktop/image-grid-2.jpg    1x
+              " />
+          <img src="assets/mobile/image-grid-2.jpg" alt="gallery picture" />
+        </picture>
+      </div>
+
+      <div class="gallery-pic3-container">
+        <picture>
+          <source media="(min-width: 747px)" srcset="
+                assets/desktop/image-grid-3@2x.jpg 2x,
+                assets/desktop/image-grid-3.jpg    1x" />
+          <img src="assets/mobile/image-grid-3.jpg" alt="gallery picture" />
+        </picture>
+      </div>
+
+      <div class="gallery-container-black">
+        <h2 class="gallery-title-light">Come &amp; be inspired</h2>
+        <p class="gallery-text-light">
+          We are excited to welcome you to our gallery and see how our
+          collections influence you.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Portion -->
+  <footer>
+    <div class="footer">
+      <h3 class="footer-title">
+        Modern <br />
+        Art Gallery
+      </h3>
+      <p class="footer-text">
+        The Modern Art Gallery is free to all visitors and open seven days a
+        week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+      </p>
+      <div>
+        <a class="footer-link" href="#"><img src="assets/icon-facebook.svg" alt="Art gallery's Facebook" /></a>
+        <a class="footer-link" href="#"><img src="assets/icon-instagram.svg" alt="Art gallery's Instagram" /></a>
+        <a class="footer-link" href="#"><img src="assets/icon-twitter.svg" alt="Art gallery's Twitter" /></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
